@@ -222,3 +222,10 @@ __marimo__/
 # from https://www.kaggle.com/c/santander-customer-transaction-prediction/data
 # and drop them in this folder.
 data/
+
+# Project outputs (large/generated artefacts; the directory structure is
+# recreated by notebooks at runtime).
+outputs/figures/
+outputs/tables/
+outputs/submissions/
+outputs/*.npy
