@@ -1,5 +1,5 @@
-# Codex 线（数据预处理 / 分类 / 聚类 / 消融）所需依赖
-# 频繁模式挖掘所需的 mlxtend 由队友的线添加。
+# 项目全量依赖：Codex 线（预处理 / 分类 / 聚类 / 消融）+
+# gyw 线（EDA / 离群检测 / 频繁模式挖掘）。
 numpy>=1.24
 pandas>=2.0
 scikit-learn>=1.3
@@ -7,3 +7,6 @@ lightgbm>=4.0
 matplotlib>=3.7
 seaborn>=0.12
 jupyter
+mlxtend>=0.24.0
+ipykernel>=6.0.0
+nbconvert>=7.0.0
