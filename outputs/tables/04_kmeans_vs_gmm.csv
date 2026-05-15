@@ -1,0 +1,3 @@
+method,best_k,silhouette,criterion,criterion_value
+KMeans,2,0.02478803279306318,inertia,4959596.740127643
+GMM,2,0.026824793879629924,BIC,13904910.537818754
