@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw Kaggle dataset — keep local only, do not sync.
+# Reviewers should download train.csv / test.csv / sample_submission.csv
+# from https://www.kaggle.com/c/santander-customer-transaction-prediction/data
+# and drop them in this folder.
+data/
